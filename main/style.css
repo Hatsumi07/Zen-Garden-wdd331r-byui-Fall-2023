@@ -93,6 +93,24 @@ aside {
   margin-top: 50px;
   padding: 5%;
 }
+aside li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+aside a {
+  border: none;
+}
+aside a.design-name {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  left: -25px;
+}
+aside a.designer-name {
+  display: inline;
+  font-weight: bold;
+}
 
 [role=banner] {
   background: transparent url(../images/starfishes-1351559_1920\ \(1\).jpg) no-repeat center;
@@ -199,24 +217,6 @@ aside {
     margin-top: 0;
     margin-right: 10%;
     max-height: 800px;
-  }
-  .sidebar li {
-    list-style-type: none;
-    padding-bottom: 10px;
-  }
-  .sidebar a {
-    border: none;
-  }
-  .sidebar a.design-name {
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
-    left: -25px;
-  }
-  .sidebar a.designer-name {
-    display: inline;
-    font-weight: bold;
   }
   footer {
     grid-area: footer;
