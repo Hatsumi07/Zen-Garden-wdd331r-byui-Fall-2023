@@ -200,6 +200,24 @@ aside {
     margin-right: 10%;
     max-height: 800px;
   }
+  .sidebar li {
+    list-style-type: none;
+    padding-bottom: 10px;
+  }
+  .sidebar a {
+    border: none;
+  }
+  .sidebar a.design-name {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: -25px;
+  }
+  .sidebar a.designer-name {
+    display: inline;
+    font-weight: bold;
+  }
   footer {
     grid-area: footer;
     margin-left: -3.3%;

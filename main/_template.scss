@@ -7,7 +7,7 @@
             "main    main    sidebar"
             "footer  footer  footer";
     }
-    
+
     .intro {
         grid-area: intro;
         display: flex;
@@ -26,6 +26,24 @@
         margin-top: 0;
         margin-right: 10%;
         max-height: 800px;
+        & li {
+            list-style-type: none;
+            padding-bottom: 10px;
+        }
+        & a {
+            border: none;
+        }
+        a.design-name {
+            display: block;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            left: -25px;
+        }
+        a.designer-name {
+            display: inline;
+            font-weight: bold;
+        }
     }
 
     footer {
