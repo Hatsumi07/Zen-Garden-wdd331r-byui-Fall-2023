@@ -166,9 +166,9 @@ aside {
   .intro .summary {
     background-color: #489AC2;
     max-width: 500px;
-    margin-top: -450px;
-    margin-bottom: 200px;
-    margin-left: 50px;
+    position: absolute;
+    top: 170px;
+    left: 49px;
     padding: 1%;
   }
   .intro .preamble {
@@ -186,6 +186,7 @@ aside {
   .intro {
     grid-area: intro;
     display: flex;
+    position: relative;
   }
   .main {
     grid-area: main;

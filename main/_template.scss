@@ -7,10 +7,11 @@
             "main    main    sidebar"
             "footer  footer  footer";
     }
-
+    
     .intro {
         grid-area: intro;
         display: flex;
+        position: relative;
     }
 
     .main {
